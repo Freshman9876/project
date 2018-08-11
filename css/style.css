@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px|Ubuntu');
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.home{
+    height: 100vh;
+}
+.logo{
+    height: 65vh;
+}
+.quote{
+    color : #3498db;
+    font-size : 3em;
+}
+.registerBtn{
+    margin-top: 4vh;
+}
+.arrow{
+    color: #3498db;
+    font-size: 1em;
+    margin-top: 5vh;
+}
+.course{
+    height: 100vh;
+}
+.course>div.row>div.col-sm-4{
+    padding: 40px;
+}
+.card{
+    border : none;
+}
+.course>div.row>div.col-sm-4>div.card>div.card-body>div.icon>img{
+    padding-bottom: 20px;
+    width: 50%;
+}
+@media only screen and (max-width : 768px){
+    .quote{
+        font-size : 2em;
+    }
+    .logo{
+        height: 68vh;
+    }
+    .registerBtn{
+        margin-top: 3vh;
+    }
+}
+@media only screen and (max-width : 480px){
+    .quote{
+        font-size : 1.6em;
+    }
+    .logo{
+        height: 70vh;
+    }
+}
